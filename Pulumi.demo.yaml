@@ -1,0 +1,22 @@
+encryptionsalt: v1:RbSwC/V+4Aw=:v1:QtOs7134ZY2rYaqs:k2uiNQiNXi0CK4GNsi12gukdKfZXmw==
+config:
+  ami:ID: ami-092956ad5898b66d3
+  ami:keyPair: mdh
+  aws:profile: demo
+  aws:region: us-east-1
+  awsAccount:Id: "118157167744"
+  dns:domainName: demo.douhaoma.me
+  dns:hostedZoneId: Z01127792M9R98DID0FFT
+  gcp:project: csye6225-406504
+  gcpBucket:Name: csye6225-douhao
+  iac-pulumi:certificateArn: arn:aws:acm:us-east-1:118157167744:certificate/1b19a430-fcc0-4e3d-a01e-9078f7117d6d
+  iac-pulumi:dbPassword:
+    secure: v1:wD8N+1YoukIIlagG:XfQ/FsACpeAwMgXDyMOzeuNocq+hT37NPPA4I6TB
+  iac-pulumi:publicSubnet:
+    name: public-subnet
+  igw:name: csye6225-igw
+  mg:apikey: 5b159082fef2976364ca5d27d29adb3a-30b58138-d34c9f7e
+  publicRoute:destinationCIDR: 0.0.0.0/0
+  serverless:zip: function.zip
+  vpc:cidrBlock: 10.0.0.0/16
+  vpc:name: csye6225-vpc

@@ -1,0 +1,21 @@
+encryptionsalt: v1:m9/GxFP+w4o=:v1:kakx7O2jWgGPu5UG:sc2n9hAOyKiUBi505NTDAFCNFd3m9A==
+config:
+  ami:ID: ami-08a4311073f288965
+  ami:keyPair: mdh
+  aws:profile: dev
+  aws:region: us-east-1
+  iac-pulumi:dbPassword:
+    secure: v1:nfN8cD436EAlb7Cg:pspPctH+sBuM2YdaKDAUXNEOpGJka8YED65nAiBE
+  iac-pulumi:publicSubnet:
+    name: public-subnet
+  igw:name: csye6225-igw
+  publicRoute:destinationCIDR: 0.0.0.0/0
+  vpc:cidrBlock: 10.0.0.0/16
+  vpc:name: csye6225-vpc
+  dns:hostedZoneId: Z05043143UBISJ5PIQYOD
+  dns:domainName: dev.douhaoma.me
+  serverless:zip: function.zip
+  awsAccount:Id: 093168065892
+  gcpBucket:Name: csye6225-douhao
+  gcp:project: csye6225-406504
+  mg:apikey: 5b159082fef2976364ca5d27d29adb3a-30b58138-d34c9f7e
